@@ -1,0 +1,10 @@
+arr=[1,5,15,21,-3,7]
+print(type(arr))
+def linear_search(elment):
+    for i in range(len(arr)):
+        if(arr[i]==elment):
+            return "Element found"
+        
+
+
+print(linear_search(19))
